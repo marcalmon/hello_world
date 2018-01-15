@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <Header title="Mar Calmón" items={items} />
         <Content />
-        <Footer />
+        <Footer copyright="&copy; Mar Calmón 2018"/>
       </div>
     );
   }
